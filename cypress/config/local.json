@@ -1,0 +1,10 @@
+{
+  "baseUrl": "http://localhost",
+  "env": {
+    "client_port": ":8080/",
+    "server_port": ":57153/",
+    "serverExt": "",
+    "devUrl": "https://staging.acadian.com/GitLabReports"
+  },
+  "chromeWebSecurity": false
+}

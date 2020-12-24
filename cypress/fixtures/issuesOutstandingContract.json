@@ -1,0 +1,27 @@
+{
+  "desc": "Verifies issues outstanding contract.",
+  "typeCheckerOptions": {
+    "nullableKeys": ["issues.closedTime", "issues.assignedUsername"],
+    "dateKeys": [
+      "issues.createdTime",
+      "issues.updatedTime",
+      "issues.closedTime"
+    ],
+    "emptyListKeys": ["issues"]
+  },
+  "expected": {
+    "issues": [
+      {
+        "id": 1,
+        "title": "string",
+        "url": "string",
+        "createdTime": "2000/11/11",
+        "updatedTime": "2000/11/11",
+        "closedTime": "2000/11/11",
+        "assignedUsername": "string",
+        "labels": [1]
+      }
+    ],
+    "tag": "string"
+  }
+}

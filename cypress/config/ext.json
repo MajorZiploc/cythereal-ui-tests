@@ -1,0 +1,9 @@
+{
+  "baseUrl": "https://magic.cythereal.com/",
+  "env": {
+    "client_port": "",
+    "server_port": "",
+    "serverExt": ""
+  },
+  "chromeWebSecurity": false
+}

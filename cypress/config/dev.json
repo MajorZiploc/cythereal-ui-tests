@@ -1,0 +1,9 @@
+{
+  "baseUrl": "https://staging.acadian.com",
+  "env": {
+    "client_port": "",
+    "server_port": "",
+    "serverExt": "/GitLabReports.Server"
+  },
+  "chromeWebSecurity": false
+}

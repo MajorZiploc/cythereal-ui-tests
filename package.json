@@ -1,0 +1,26 @@
+{
+  "name": "uitestsuite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Manyu Lakhotia",
+  "license": "MIT",
+  "scripts": {
+    "cy": ".\\node_modules\\.bin\\cypress",
+    "cy:open": "yarn run cy open",
+    "cy:headless": "yarn run cy run --headless",
+    "cy:headed": "yarn run cy run --headed",
+    "start": ".\\cypress_starter.sh \"gui\"",
+    "run:all:headless": ".\\cypress_starter.sh \"headless\"",
+    "run:all:headed": ".\\cypress_starter.sh \"headed\""
+  },
+  "dependencies": {
+    "cypress": "^4.5.0",
+    "fs-extra": "^9.0.1",
+    "json-test-utility": "^0.2.8",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@types/cypress": "^1.1.3",
+    "typescript": "^3.9.2"
+  }
+}

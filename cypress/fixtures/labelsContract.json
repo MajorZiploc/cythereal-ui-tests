@@ -1,0 +1,14 @@
+{
+  "desc": "Verifies labels contract.",
+  "typeCheckerOptions": {
+    "nullableKeys": ["sequence", "priority"]
+  },
+  "expected": {
+    "id": 1,
+    "name": "string",
+    "sequence": 1,
+    "priority": 1,
+    "color": "string",
+    "textColor": "string"
+  }
+}

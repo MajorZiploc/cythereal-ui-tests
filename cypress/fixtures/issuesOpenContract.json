@@ -1,0 +1,17 @@
+{
+  "desc": "Verifies issues open contract.",
+  "typeCheckerOptions": {
+    "nullableKeys": ["closedTime", "assignedUsername"],
+    "dateKeys": ["createdTime", "updatedTime", "closedTime"]
+  },
+  "expected": {
+    "id": 1,
+    "title": "string",
+    "url": "string",
+    "createdTime": "2000/11/11",
+    "updatedTime": "2000/11/11",
+    "closedTime": "2000/11/11",
+    "assignedUsername": "string",
+    "labels": [1]
+  }
+}
