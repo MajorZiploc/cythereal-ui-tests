@@ -42,7 +42,7 @@ Cypress.Commands.add("checkIssueMovement", () =>
 Cypress.Commands.add("getLogoutButton", () =>
   cy.get("#user-info-dropdown")
     .click()
-    .get('href="/users/logout/"')
+    .get('a[href*="/users/logout/"]')
 );
 
 Cypress.Commands.add("checkLogoutButton", () =>
