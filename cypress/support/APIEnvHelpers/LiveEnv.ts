@@ -2,7 +2,9 @@
 
 import { IEnvHelper } from "./IEnvHelper";
 import * as _ from "lodash";
-
+Cypress.on('uncaught:exception', (err, runnable)=> {
+                  return false;
+          })
 export class LiveEnv implements IEnvHelper {
   username: string;
   password: string;
